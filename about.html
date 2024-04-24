@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | [Website Name]</title>
+    <style>
+      /* Reset default margin and padding */
+      body,
+      h1,
+      h2,
+      h3,
+      p,
+      ul,
+      li {
+          margin: 0;
+          padding: 0;
+      }
+
+      /* Basic styling */
+      @font-face {
+        font-family: 'gilroy';
+        src: url(./fonts/Gilroy-Regular.ttf);
+      }
+
+    body {
+          font-family: gilroy;
+          background-color: #f7f7f7;
+          color: #333;
+          line-height: 1.6;
+      }
+
+      header .container{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .container {
+          width: 80%;
+          margin: 0 auto;
+          
+      }
+
+      header {
+          background-color: #000D0C;
+          color: #fff;
+          padding: 20px 0;
+      }
+
+      header h1 {
+          margin: 0;
+          padding-left: 20px;
+          font-size: 2.5rem;
+      }
+
+      nav ul {
+          list-style-type: none;
+      }
+
+      nav ul li {
+          display: inline;
+          margin-right: 20px;
+      }
+
+      nav ul li a {
+          color: #fff;
+          text-decoration: none;
+      }
+
+      .about-section,
+      .what-we-offer,
+      .our-commitment,
+      .get-involved {
+          padding: 30px 0;
+      }
+
+      .about-section h2,
+      .what-we-offer h2,
+      .our-commitment h2,
+      .get-involved h2 {
+          color: #000D0C;
+          margin-bottom: 20px;
+          font-size: 2rem;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+      }
+
+      .about-section p,
+      .what-we-offer ul,
+      .our-commitment p,
+      .get-involved p {
+          color: #2a2a2a;
+          font-size: 1.1rem;
+      }
+
+      .what-we-offer ul {
+          list-style: none;
+      }
+
+      .what-we-offer ul li {
+          margin-bottom: 10px;
+      }
+
+      .what-we-offer ul li:before {
+          content: '\2022';
+          color: #FF7F50;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+      }
+
+      footer {
+          background-color: #000D0C;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+      }
+
+      footer p {
+          font-size: 1rem;
+      }
+
+      /* Hover animation for navigation links */
+      nav ul li a:hover {
+          color: rgb(14, 189, 14);
+      }
+
+      /* Subtle animation for section headings */
+      .about-section h2,
+      .what-we-offer h2,
+      .our-commitment h2,
+      .get-involved h2 {
+          position: relative;
+          animation: slideIn 1s ease;
+      }
+      .img-section{
+        padding: 40px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      span{
+        color: rgb(14, 196, 14);
+      }
+
+      @keyframes slideIn {
+          from {
+              left: -50px;
+              opacity: 0;
+          }
+
+          to {
+              left: 0;
+              opacity: 1;
+          }
+      }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>About Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="#">About us</a></li>    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="img-section">
+      <img src="images/Picture1.png">
+    </section>
+    
+
+    <section class="about-section">
+        <div class="container">
+            <h2>Welcome to <span>AirAware</span></h2>
+            <p>At <b>AirAware</b>, we are passionate about raising awareness and empowering individuals, communities, and
+                policymakers to take action against the pressing issue of air pollution.</p>
+            <p>Our mission is simple: to provide accessible, reliable information on air quality, its causes, impacts, and
+                solutions. We believe that informed decision-making is the first step toward creating a cleaner,
+                healthier environment for all.</p>
+        </div>
+    </section>
+
+    <section class="what-we-offer">
+        <div class="container">
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Educational Resources</li>
+                <li>Air Quality Data</li>
+                <li>Actionable Solutions</li>
+                <li>Community Engagement</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="our-commitment">
+        <div class="container">
+            <h2>Our Commitment</h2>
+            <p>At <b>AirAware</b>, we are committed to transparency, accuracy, and integrity in everything we do. Our content
+                is thoroughly researched and vetted by experts to ensure its reliability and relevance. We strive to
+                present information in a clear, accessible manner, empowering our audience to make informed decisions and take
+                meaningful action.
+            </p>
+        </div>
+    </section>
+
+    <section class="get-involved">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <p>Ready to join us in the fight against air pollution? Explore our website, engage with our content, and share
+                your voice. Together, we can build a cleaner, healthier future for generations to come.</p>
+            <p>Thank you for visiting <strong>AirAware</strong>. Together, let's clear the air.</p>
+        </div>
+    </section>
+
+    #4CAF50
+
+</body>
+
+</html>
